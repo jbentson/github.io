@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Figure</title>
+    <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+    <link href="figure.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="wrap">
+        <header>
+            <div id="box">
+
+                <h1>Welcome</h1>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </div>
+        </header>
+
+        <nav>
+            <div class="slider-wrapper theme-default">
+                <div id="slider" class="nivoSlider">
+                    <img src="images/seahawks.jpg" data-thumb="images/seahawks.jpg" alt="Seahawks" />
+                    <a href="http://seahawks.com"><img src="images/russell.jpg" data-thumb="images/russell.jpg" alt="russell" title="This is an example of a caption" /></a>
+                    <img src="images/bobby.jpg" data-thumb="images/bobby.jpg" alt="bobby" data-transition="slideInLeft" />
+                    <img src="images/dk.jpg" data-thumb="images/dk.jpg" alt="dk" title="#htmlcaption" />
+                </div>
+                <div id="htmlcaption" class="nivo-html-caption">
+                    <strong>Select</strong> <em>here</em> for a video of <a href="https://www.youtube.com/watch?v=J62GsevPwiQ">a lion chasing a gazel</a>.
+                </div>
+            </div>
+        </nav>
+
+        <section>
+            <figure><img src="skater.jpg">
+                <figcaption> This skater is a champion.</figcaption>
+            </figure>
+            <figure><img src="skater.jpg">
+                <figcaption> This skater is a champion.</figcaption>
+            </figure>
+            <figure><img src="skater.jpg">
+                <figcaption> This skater is a champion.</figcaption>
+            </figure>
+            <figure><img src="skater.jpg">
+                <figcaption> This skater is a champion.</figcaption>
+            </figure>
+            <figure><img src="skater.jpg">
+                <figcaption> This skater is a champion.</figcaption>
+            </figure>
+            <figure><img src="skater.jpg">
+                <figcaption> This skater is a champion.</figcaption>
+            </figure>
+
+        </section>
+
+        <footer>
+            Footer
+        </footer>
+    </div>
+    <!--End wrap-->
+    <script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+        $(window).load(function() {
+            $('#slider').nivoSlider();
+        });
+
+    </script>
+</body>
+
+</html>
